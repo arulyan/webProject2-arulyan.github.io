@@ -1,0 +1,237 @@
+/*.heloo
+{max-width:700px;
+	min-height: 200px;
+	display:flex;
+	flex:wrap;
+	justify-content:space-between;
+}*/
+/*.hello
+{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}*/
+/*.box div
+{
+	width:320px;
+}*/
+
+.rBorder{
+	border-right:2px solid #DED6D6;
+}
+.fontBar{
+	font-size:13px;
+}
+.product{
+	background-image:url("Images/CyberPunk2077.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:250px;
+	background-position-y:center;
+}
+.productParent{
+	position: relative;
+}
+.productChild{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.xfont{
+	font-size: 50px;
+	color: white;
+}
+.fa {
+  padding: 3px;
+  /*font-size: 10px;*/
+  width: 22px;
+  text-align: center;
+  text-decoration: none;
+}
+.share{
+	color:white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.formo{
+	font-size:18px;
+}
+.like{
+	border-bottom:5px solid green;
+}
+.mike{
+	background-color: green;
+}
+.widthCulprit{
+	width: 250px;
+}
+.lastSection{
+	border-top: 5px solid green;
+}
+.line p{
+	line-height: 1;
+}
+@media screen and (max-width: 1200px){
+	.product{
+		height: 200px;
+	}
+	.xfont{
+		font-size: 40px;
+	}
+	.fa{
+		width: 16px;
+		padding:1px;
+		font-size: 15px!important;
+	}
+	.share{
+		font-size: 15px;
+	}
+	.lorem{
+		font-size: 15px;
+	}
+	.cost h6,p{
+		font-size: 14px;
+	}
+	.cost button{
+		font-size: 15px;
+	}
+	.formo{
+		font-size: 15px;
+	}
+	.formo select{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 992px){
+	.logo{
+		width: 130px;
+	}
+	.bigNav li{
+		font-size: 15px;
+		text-align: center;
+	}
+	.xfont{
+		font-size: 30px;
+	}
+	.fa{
+		width: 12px;
+		padding:1px;
+		font-size: 10px!important;
+	}
+	.share{
+		font-size: 12px;
+	}
+	.lorem{
+		font-size: 15px;
+	}
+	.cost h6,p{
+		font-size: 13px;
+	}
+	.cost button{
+		font-size: 12px;
+	}
+	.formo{
+		font-size: 11.5px;
+	}
+	.formo select{
+		font-size: 10px;
+	}
+	.desc p{
+		font-size: 12px;
+	}
+	.lastImg{
+		height:50px;
+	}
+	.lastFont{
+		font-size: 10px;
+	}
+	.gameImages{
+		width:250px;
+	}
+	.lastEmailFont{
+		font-size: 10px;
+		height: 0px!important;
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 767px){
+	body{
+		padding:0px!important;
+	}
+	.smallNav{
+		display:none;
+	}
+	.bigNavBar{
+		max-width:100%;
+	}
+	.xfont{
+		font-size: 40px;
+	}
+	.fa{
+		width: 16px;
+		padding:1px;
+		font-size: 15px!important;
+	}
+	.share{
+		font-size: 15px;
+	}
+	.lorem{
+		font-size: 15px;
+	}
+	.cost h6,p{
+		font-size: 14px;
+	}
+	.cost button{
+		font-size: 15px;
+	}
+	.formo{
+		font-size: 15px;
+	}
+	.formo select{
+		font-size: 12px;
+	}
+	.Microsoft{
+		padding-right:0;
+	}
+	.Music{
+		padding-left:0;
+	}
+	.lastFont{
+		font-size:12px!important;
+	}
+	.lastEmailFont{
+		height: 10px!important;
+		font-size: 12px!important;
+		padding:7px;
+	}
+	.oneMore{
+		padding-top: 30px!important;
+	}
+	.lastImg{
+		height:70px;
+	}
+}
+@media screen and (max-width:576px){
+	.gameImages{
+		width:200px;
+	}
+}
